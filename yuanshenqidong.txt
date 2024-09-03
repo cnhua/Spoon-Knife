@@ -3,3 +3,10 @@ git config --global https.proxy 127.0.0.1:7890
 
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+
+1.	git status             #查看状态，修改变动的地方会标红
+2.	git add *             # *表示所有修改变动的文件
+3.	git commit -m “注释”   # 本次提交的注释
+4.	git push origin main    # 将代码推送到云端的main分支
+5.	git config --global user.email "1179167225@qq.com"        #配置账户
+6.	git clone 仓库地址    # 克隆仓库地址到本地
